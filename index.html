@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiple-Choice-Übung LF4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      max-width: 900px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .question-block {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background: #f9f9f9;
+    }
+    .question {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .answers {
+      margin-left: 20px;
+    }
+    .answers label {
+      display: block;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+    .check-btn {
+      margin-top: 10px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .feedback {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .correct {
+      color: #008000; /* Grün für richtige Antwort */
+    }
+    .wrong {
+      color: #cc0000; /* Rot für falsche Antwort */
+    }
+  </style>
+</head>
+<body>
+
+<h1>Multiple-Choice-Übung LF4</h1>
+<p>
+  Hier findest du 28 Fragen zum Themenbereich <em>LF4: Informationssicherheit, 
+  IT-Sicherheit und Datenschutz</em>. Wähle jeweils die passende Antwort aus und
+  klicke anschließend auf <strong>Antwort prüfen</strong>. Es wird dir unmittelbar
+  angezeigt, ob deine Wahl richtig oder falsch war.
+</p>
+
+<!-- Frage 1 -->
+<div class="question-block" data-correct="A">
+  <div class="question">
+    1. Welches ist der <em>wichtigste</em> Unterschied zwischen <strong>Informationssicherheit</strong> 
+    und <strong>IT-Sicherheit</strong>?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q1" value="A">
+      A) IT-Sicherheit betrachtet ausschließlich die technische Ebene, 
+         Informationssicherheit umfasst auch organisatorische und personelle Aspekte.
+    </label>
+    <label>
+      <input type="radio" name="q1" value="B">
+      B) Informationssicherheit befasst sich nur mit analogen Dokumenten, 
+         IT-Sicherheit nur mit digitalen Systemen.
+    </label>
+    <label>
+      <input type="radio" name="q1" value="C">
+      C) IT-Sicherheit ist nur in Deutschland relevant, während 
+         Informationssicherheit eine internationale Norm ist.
+    </label>
+    <label>
+      <input type="radio" name="q1" value="D">
+      D) Informationssicherheit ist ein Teilgebiet der IT-Sicherheit und 
+         bezieht sich nur auf Hardware.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 2 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    2. Welche <em>zentrale Aufgabe</em> erfüllt das <strong>Bundesamt für Sicherheit in der 
+    Informationstechnik (BSI)</strong> im Kontext von kritischen Infrastrukturen?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q2" value="A">
+      A) Verkauf von IT-Sicherheitssoftware an Bundesbehörden
+    </label>
+    <label>
+      <input type="radio" name="q2" value="B">
+      B) Festlegung von Mindestlöhnen für IT-Sicherheitsfachkräfte
+    </label>
+    <label>
+      <input type="radio" name="q2" value="C">
+      C) Erstellung von Sicherheitsstandards und Warnmeldungen vor aktuellen Bedrohungen
+    </label>
+    <label>
+      <input type="radio" name="q2" value="D">
+      D) Finanzierung privater Sicherheitsdienste in Unternehmen
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 3 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    3. Was ist <em>keine</em> zentrale Anforderung der <strong>DSGVO</strong> an Unternehmen, 
+    die personenbezogene Daten verarbeiten?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q3" value="A">
+      A) Benennung eines Datenschutzbeauftragten (wenn gesetzlich erforderlich)
+    </label>
+    <label>
+      <input type="radio" name="q3" value="B">
+      B) Dokumentation und Nachweis der ergriffenen Datenschutzmaßnahmen
+    </label>
+    <label>
+      <input type="radio" name="q3" value="C">
+      C) Veröffentlichung aller Kundendaten auf der eigenen Webseite
+    </label>
+    <label>
+      <input type="radio" name="q3" value="D">
+      D) Umsetzung geeigneter technischer und organisatorischer Maßnahmen (TOMs)
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 4 -->
+<div class="question-block" data-correct="D">
+  <div class="question">
+    4. Welche der folgenden Maßnahmen ist <em>nicht</em> zwingend ein Bestandteil der 
+    <strong>Informationssicherheit</strong> in Unternehmen?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q4" value="A">
+      A) Regelmäßige Durchführung von Backups
+    </label>
+    <label>
+      <input type="radio" name="q4" value="B">
+      B) Schulung der Mitarbeitenden zum Thema Sicherheit
+    </label>
+    <label>
+      <input type="radio" name="q4" value="C">
+      C) Zugangskontrolle zu Serverräumen
+    </label>
+    <label>
+      <input type="radio" name="q4" value="D">
+      D) Zwangslöschung aller E-Mails nach 48 Stunden
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 5 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    5. Welche <em>besonderen Anforderungen</em> gelten für Unternehmen der 
+    <strong>kritischen Infrastruktur (KRITIS)</strong> in Deutschland?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q5" value="A">
+      A) Sie müssen ihre IT-Systeme nur dann schützen, wenn sie über 500 Mitarbeitende haben.
+    </label>
+    <label>
+      <input type="radio" name="q5" value="B">
+      B) Sie müssen Sicherheitsvorfälle unverzüglich an das BSI melden und 
+         regelmäßige Sicherheitsüberprüfungen durchführen.
+    </label>
+    <label>
+      <input type="radio" name="q5" value="C">
+      C) Sie sind von sämtlichen Datenschutzregelungen ausgenommen, sofern sie 
+         ein staatliches Zertifikat besitzen.
+    </label>
+    <label>
+      <input type="radio" name="q5" value="D">
+      D) Sie müssen Sicherheitsstandards nur auf freiwilliger Basis einhalten.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 6 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    6. Welche <em>Rechte</em> hat ein <strong>Urheber</strong> an seinem Werk laut Urheberrechtsgesetz 
+    <em>nicht</em>?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q6" value="A">
+      A) Das Recht auf Namensnennung
+    </label>
+    <label>
+      <input type="radio" name="q6" value="B">
+      B) Das Recht auf Veränderung durch beliebige Dritte ohne Zustimmung
+    </label>
+    <label>
+      <input type="radio" name="q6" value="C">
+      C) Das Recht auf Vervielfältigung
+    </label>
+    <label>
+      <input type="radio" name="q6" value="D">
+      D) Das Recht auf Verbreitung
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 7 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    7. Welche <em>Schäden</em> können für ein Unternehmen entstehen, wenn 
+    vertrauliche Geschäftsinformationen an die Öffentlichkeit gelangen?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q7" value="A">
+      A) Es entstehen ausschließlich hohe steuerliche Vorteile.
+    </label>
+    <label>
+      <input type="radio" name="q7" value="B">
+      B) Nur der Ruf des betroffenen Mitarbeiters leidet, nicht aber der des Unternehmens.
+    </label>
+    <label>
+      <input type="radio" name="q7" value="C">
+      C) Finanzielle Verluste, Reputationsschäden und mögliche rechtliche Konsequenzen.
+    </label>
+    <label>
+      <input type="radio" name="q7" value="D">
+      D) Der Umsatz steigt durch mehr Publicity.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 8 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    8. Was fordert § 64 BDSG <em>insbesondere</em> von Unternehmen, die personenbezogene 
+    Daten verarbeiten?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q8" value="A">
+      A) Jährliche Vernichtung aller vorhandenen Personaldaten
+    </label>
+    <label>
+      <input type="radio" name="q8" value="B">
+      B) Alle Daten sind ohne Einschränkungen online zu veröffentlichen
+    </label>
+    <label>
+      <input type="radio" name="q8" value="C">
+      C) Umsetzung geeigneter technischer und organisatorischer Maßnahmen zum Datenschutz
+    </label>
+    <label>
+      <input type="radio" name="q8" value="D">
+      D) Nutzung ausschließlich amerikanischer Cloud-Dienste
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 9 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    9. Welche der folgenden <em>drei Schutzziele</em> bilden das Herzstück der Informationssicherheit?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q9" value="A">
+      A) Datenschutz, Verfügbarkeit, Verschlüsselung
+    </label>
+    <label>
+      <input type="radio" name="q9" value="B">
+      B) Vertraulichkeit, Integrität, Verfügbarkeit
+    </label>
+    <label>
+      <input type="radio" name="q9" value="C">
+      C) Integrität, Firewall-Konfiguration, Vertraulichkeit
+    </label>
+    <label>
+      <input type="radio" name="q9" value="D">
+      D) Authentisierung, Verschlüsselung, Protokollierung
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 10 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    10. Was versteht man unter <em>Vertraulichkeit</em> im Kontext der Informationssicherheit?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q10" value="A">
+      A) Dass Daten immer und überall abrufbar sind
+    </label>
+    <label>
+      <input type="radio" name="q10" value="B">
+      B) Dass Daten erst nach 30 Jahren veröffentlicht werden dürfen
+    </label>
+    <label>
+      <input type="radio" name="q10" value="C">
+      C) Dass nur autorisierte Personen Zugriff auf die Daten haben
+    </label>
+    <label>
+      <input type="radio" name="q10" value="D">
+      D) Dass Daten grundsätzlich frei zugänglich sind
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 11 -->
+<div class="question-block" data-correct="A">
+  <div class="question">
+    11. Welche <em>Technik</em> dient in erster Linie der <strong>Integrität</strong> von Daten?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q11" value="A">
+      A) Hashing (z. B. SHA-256)
+    </label>
+    <label>
+      <input type="radio" name="q11" value="B">
+      B) Backups im 4-Stunden-Takt
+    </label>
+    <label>
+      <input type="radio" name="q11" value="C">
+      C) VPN-Tunnel
+    </label>
+    <label>
+      <input type="radio" name="q11" value="D">
+      D) Verschlüsselung mit demselben Schlüssel
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 12 -->
+<div class="question-block" data-correct="A">
+  <div class="question">
+    12. Welche <em>Maßnahme</em> unterstützt am stärksten die <strong>Verfügbarkeit</strong> von Systemen?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q12" value="A">
+      A) Redundante Systeme und Notfallpläne
+    </label>
+    <label>
+      <input type="radio" name="q12" value="B">
+      B) Automatische E-Mail-Weiterleitung an alle Mitarbeitenden
+    </label>
+    <label>
+      <input type="radio" name="q12" value="C">
+      C) Verwendung von möglichst simplen Passwörtern
+    </label>
+    <label>
+      <input type="radio" name="q12" value="D">
+      D) Manuelles Abschalten des Servers während Wartungen
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 13 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    13. Durch welche <em>Methode</em> wird bei einer <strong>digitalen Signatur</strong> 
+    vor allem sichergestellt, dass die Nachricht nicht unbemerkt verändert wurde?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q13" value="A">
+      A) Die Signatur wird mündlich telefonisch bestätigt.
+    </label>
+    <label>
+      <input type="radio" name="q13" value="B">
+      B) Es wird ein Hashwert gebildet und verschlüsselt, der die Datenintegrität belegt.
+    </label>
+    <label>
+      <input type="radio" name="q13" value="C">
+      C) Die Nachricht wird nur auf Papier ausgedruckt und unterschrieben.
+    </label>
+    <label>
+      <input type="radio" name="q13" value="D">
+      D) Die IP-Adresse des Absenders wird automatisch gespeichert.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 14 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    14. Welches ist ein <em>Beispiel</em> für einen <strong>passiven</strong> Angriff auf die IT?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q14" value="A">
+      A) Ein Hacker manipuliert aktiv eine Datenbank.
+    </label>
+    <label>
+      <input type="radio" name="q14" value="B">
+      B) Ein DDoS-Angriff legt den Server lahm.
+    </label>
+    <label>
+      <input type="radio" name="q14" value="C">
+      C) Ein Lauscher (Sniffer) liest Daten unbemerkt mit.
+    </label>
+    <label>
+      <input type="radio" name="q14" value="D">
+      D) Ein Insider löscht absichtlich wichtige Daten.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 15 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    15. Welche der folgenden <em>Bedrohungen</em> kann <strong>insbesondere</strong> 
+    von <em>Mitarbeitenden</em> (Insider-Threat) ausgehen?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q15" value="A">
+      A) Entwicklung neuer Softwareprojekte
+    </label>
+    <label>
+      <input type="radio" name="q15" value="B">
+      B) Unbemerkte Weitergabe oder Manipulation von sensiblen Daten
+    </label>
+    <label>
+      <input type="radio" name="q15" value="C">
+      C) Ausschließliche Nutzung starker Passwörter
+    </label>
+    <label>
+      <input type="radio" name="q15" value="D">
+      D) Durchführen regelmäßiger Sicherheitsupdates
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 16 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    16. Was beschreibt eine <em>hardwarebasierte Verwundbarkeit</em> am treffendsten?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q16" value="A">
+      A) Ein Virus in einer E-Mail-Anhang-Datei
+    </label>
+    <label>
+      <input type="radio" name="q16" value="B">
+      B) Offener Serverraum ohne physische Zugangskontrolle
+    </label>
+    <label>
+      <input type="radio" name="q16" value="C">
+      C) Fehlkonfiguration einer Firewall-Regel
+    </label>
+    <label>
+      <input type="radio" name="q16" value="D">
+      D) Verwendung leicht zu erratender Passwörter
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 17 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    17. Welche <em>Angriffsmethode</em> ist <strong>kein</strong> aktiver Angriff?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q17" value="A">
+      A) Man-in-the-Middle-Angriff
+    </label>
+    <label>
+      <input type="radio" name="q17" value="B">
+      B) Abhören des Datenverkehrs (Sniffing)
+    </label>
+    <label>
+      <input type="radio" name="q17" value="C">
+      C) Phishing-E-Mail mit manipuliertem Link
+    </label>
+    <label>
+      <input type="radio" name="q17" value="D">
+      D) SQL-Injection-Angriff auf eine Datenbank
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 18 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    18. Welche <em>Infektionswege</em> für Schadsoftware ist <em>typisch</em>?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q18" value="A">
+      A) Ständiger Datenaustausch über verschlüsselte VPN-Verbindungen
+    </label>
+    <label>
+      <input type="radio" name="q18" value="B">
+      B) Ausschließlich das Lesen von PDF-Dateien auf der Festplatte
+    </label>
+    <label>
+      <input type="radio" name="q18" value="C">
+      C) Drive-by-Downloads über infizierte Websites
+    </label>
+    <label>
+      <input type="radio" name="q18" value="D">
+      D) Das sichere Herunterfahren des Computers am Ende des Tages
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 19 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    19. Welche <em>Art</em> von Schadsoftware verbreitet sich <strong>selbstständig</strong> 
+    über Netzwerke ohne Nutzerinteraktion?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q19" value="A">
+      A) Trojaner
+    </label>
+    <label>
+      <input type="radio" name="q19" value="B">
+      B) Virus
+    </label>
+    <label>
+      <input type="radio" name="q19" value="C">
+      C) Wurm
+    </label>
+    <label>
+      <input type="radio" name="q19" value="D">
+      D) Spyware
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 20 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    20. Welche <em>Maßnahme</em> gehört zur <strong>physischen</strong> Zugriffssicherung?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q20" value="A">
+      A) Implementierung einer zweistufigen Firewall
+    </label>
+    <label>
+      <input type="radio" name="q20" value="B">
+      B) Vergabe von Passwörtern und Berechtigungen
+    </label>
+    <label>
+      <input type="radio" name="q20" value="C">
+      C) Nutzung von Türschlössern, Sicherheitskarten oder Biometrie für Serverräume
+    </label>
+    <label>
+      <input type="radio" name="q20" value="D">
+      D) Einrichtung einer verschlüsselten Festplatte
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 21 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    21. Was ist eine <strong>Personal Firewall</strong>?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q21" value="A">
+      A) Ein Hardware-Gerät, das den Datenverkehr im gesamten Unternehmensnetzwerk überwacht
+    </label>
+    <label>
+      <input type="radio" name="q21" value="B">
+      B) Ein Antiviren-Programm, das ausschließlich E-Mails filtert
+    </label>
+    <label>
+      <input type="radio" name="q21" value="C">
+      C) Eine softwarebasierte Firewall, die auf dem Endgerät des Nutzers läuft
+    </label>
+    <label>
+      <input type="radio" name="q21" value="D">
+      D) Eine physische Schutzwand im Serverraum
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 22 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    22. Welche Aussage zur <strong>symmetrischen Verschlüsselung</strong> trifft zu?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q22" value="A">
+      A) Symmetrische Verschlüsselung verwendet ein Schlüsselpaar (public/private).
+    </label>
+    <label>
+      <input type="radio" name="q22" value="B">
+      B) Beide Kommunikationspartner nutzen denselben Schlüssel, um zu ver- 
+         und entschlüsseln.
+    </label>
+    <label>
+      <input type="radio" name="q22" value="C">
+      C) Sie ist immer unsicherer als asymmetrische Verschlüsselung.
+    </label>
+    <label>
+      <input type="radio" name="q22" value="D">
+      D) Sie wird niemals in Kombination mit anderen Verfahren eingesetzt.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 23 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    23. Was ist bei der <em>Funktionsweise</em> eines Virenscanners besonders wichtig?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q23" value="A">
+      A) Er muss rund um die Uhr offline sein, um Angriffe zu erkennen.
+    </label>
+    <label>
+      <input type="radio" name="q23" value="B">
+      B) Er arbeitet ausschließlich mit veralteten Signaturen, um neue Viren zu finden.
+    </label>
+    <label>
+      <input type="radio" name="q23" value="C">
+      C) Regelmäßige Updates der Virensignaturen, damit neue Schadsoftware erkannt wird.
+    </label>
+    <label>
+      <input type="radio" name="q23" value="D">
+      D) Er ersetzt alle anderen Sicherheitsmaßnahmen.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 24 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    24. Welche <strong>Verschlüsselungsart</strong> kombiniert sowohl <em>asymmetrische</em> 
+    als auch <em>symmetrische</em> Verfahren?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q24" value="A">
+      A) Homomorphe Verschlüsselung
+    </label>
+    <label>
+      <input type="radio" name="q24" value="B">
+      B) Hash- und Prüfverfahren
+    </label>
+    <label>
+      <input type="radio" name="q24" value="C">
+      C) Hybride Verschlüsselung (z. B. TLS/SSL)
+    </label>
+    <label>
+      <input type="radio" name="q24" value="D">
+      D) Personal Firewall
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 25 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    25. Warum ist es sinnvoll, für verschiedene IT-Systeme oder Daten 
+    <em>unterschiedliche Schutzbedarfskategorien</em> festzulegen?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q25" value="A">
+      A) Damit jedes Unternehmen immer dieselben Maßnahmen umsetzt, 
+         unabhängig von der Relevanz.
+    </label>
+    <label>
+      <input type="radio" name="q25" value="B">
+      B) Weil nicht alle Informationen und Systeme gleich kritisch oder sensibel sind.
+    </label>
+    <label>
+      <input type="radio" name="q25" value="C">
+      C) Damit wichtige Daten grundsätzlich gar nicht mehr verarbeitet werden.
+    </label>
+    <label>
+      <input type="radio" name="q25" value="D">
+      D) Weil das Gesetz verlangt, mindestens 20 Kategorien einzuführen.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 26 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    26. Welche der folgenden <em>Schadensszenarien</em> bezeichnet 
+    <strong>finanzielle Auswirkungen</strong>?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q26" value="A">
+      A) Ein Imageschaden aufgrund einer gehackten Website
+    </label>
+    <label>
+      <input type="radio" name="q26" value="B">
+      B) Bei einem Datendiebstahl entstehen Kosten durch Vertragsstrafen, 
+         Wiederherstellung und mögliche Bußgelder
+    </label>
+    <label>
+      <input type="radio" name="q26" value="C">
+      C) Eine Person wird nach einem Angriff verletzt
+    </label>
+    <label>
+      <input type="radio" name="q26" value="D">
+      D) Fehlende Mitarbeitermotivation nach einer Schulung
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 27 -->
+<div class="question-block" data-correct="C">
+  <div class="question">
+    27. Welche <em>Rolle</em> spielen die <strong>Schutzziele</strong> 
+    (Vertraulichkeit, Integrität, Verfügbarkeit) bei der <em>Bewertung eines Schadensszenarios</em>?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q27" value="A">
+      A) Sie sind nur für staatliche Einrichtungen relevant.
+    </label>
+    <label>
+      <input type="radio" name="q27" value="B">
+      B) Sie werden ausschließlich in Personalgesprächen verwendet.
+    </label>
+    <label>
+      <input type="radio" name="q27" value="C">
+      C) Sie geben Hinweise darauf, welche Art von Schaden bei einer Verletzung 
+         auftreten kann.
+    </label>
+    <label>
+      <input type="radio" name="q27" value="D">
+      D) Sie sind für die Risikoeinschätzung unwichtig.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<!-- Frage 28 -->
+<div class="question-block" data-correct="B">
+  <div class="question">
+    28. Warum sind <em>bestimmte Schadensszenarien</em> für ein Unternehmen 
+    <em>möglicherweise weniger relevant</em> als für ein anderes?
+  </div>
+  <div class="answers">
+    <label>
+      <input type="radio" name="q28" value="A">
+      A) Weil jedes Unternehmen nur dieselben Angriffe bekommt.
+    </label>
+    <label>
+      <input type="radio" name="q28" value="B">
+      B) Weil jedes Unternehmen eigene Arbeitsprozesse, Datenarten und Risikoprofile hat.
+    </label>
+    <label>
+      <input type="radio" name="q28" value="C">
+      C) Weil das BSI alle Unternehmen gleich einstuft.
+    </label>
+    <label>
+      <input type="radio" name="q28" value="D">
+      D) Weil Schadensszenarien immer rein zufällig auftreten.
+    </label>
+  </div>
+  <button class="check-btn">Antwort prüfen</button>
+  <div class="feedback"></div>
+</div>
+
+<hr>
+<p><strong>Viel Erfolg beim Üben!</strong> Nutze diese Fragen, um dein Wissen zu überprüfen, und ergänze gerne eigene Fragen aus deinem Unterrichtsmaterial für eine noch gezieltere Vorbereitung.</p>
+
+<script>
+  // Alle Buttons abfragen
+  const checkButtons = document.querySelectorAll('.check-btn');
+
+  checkButtons.forEach((button) => {
+    button.addEventListener('click', function() {
+      // Elterncontainer (question-block) identifizieren
+      const questionBlock = this.closest('.question-block');
+      // Richtiges Ergebnis aus data-correct
+      const correctAnswer = questionBlock.getAttribute('data-correct');
+      // Radio-Buttons im Container suchen
+      const radios = questionBlock.querySelectorAll('input[type="radio"]');
+      let selectedValue = null;
+
+      // Prüfen, welcher Radio-Button ausgewählt ist
+      radios.forEach((radio) => {
+        if (radio.checked) {
+          selectedValue = radio.value;
+        }
+      });
+
+      // Feedback-Element
+      const feedbackEl = questionBlock.querySelector('.feedback');
+
+      // Wenn keine Antwort ausgewählt wurde
+      if (!selectedValue) {
+        feedbackEl.textContent = 'Bitte wähle eine Antwort aus.';
+        feedbackEl.classList.remove('correct');
+        feedbackEl.classList.remove('wrong');
+        return;
+      }
+
+      // Vergleich der Auswahl mit der richtigen Antwort
+      if (selectedValue === correctAnswer) {
+        feedbackEl.textContent = 'Richtig! Gute Arbeit.';
+        feedbackEl.classList.add('correct');
+        feedbackEl.classList.remove('wrong');
+      } else {
+        feedbackEl.textContent = 'Falsch! Versuche es noch einmal.';
+        feedbackEl.classList.add('wrong');
+        feedbackEl.classList.remove('correct');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
